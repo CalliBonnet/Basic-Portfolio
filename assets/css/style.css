@@ -12,9 +12,12 @@ h1 {
     display: inline-block;
 }
 
+/*this is for the nav bar*/
 .navigation{ 
     background-color: #ffffff;
     padding: 0 20px 0 20px;
+    height: 75px;
+    border: solid #cccccc;
 }
 
 .container{ 
