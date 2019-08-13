@@ -1,6 +1,5 @@
 body {
-    background-image: url("symphony.png");
-    background-color: aqua;
+    background-image: url("../images/symphony.png");
 }
 
 h1 {
@@ -68,9 +67,9 @@ li a:hover{
     box-sizing: border-box;
     background-color: #ffffff;
     width: 960px;
-    height: 200px;
+    height: 500px;
     padding: 3px 20px 15px 20px;
-    margin: auto;
+    margin: 40px auto;
     border: solid #cccccc;
 }
 
