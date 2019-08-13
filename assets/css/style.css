@@ -1,5 +1,6 @@
 body {
-    background-color: rgba(253, 228, 248, 0.667)
+    background-image: url("symphony.png");
+    background-color: aqua
 }
 
 h1 {
@@ -9,6 +10,10 @@ h1 {
     height: 30px;
     text-align: center;
     padding: 10px;
+}
+
+h2{ 
+    color: #4aaaa5;
 }
 
 /*this is floating the image to the left*/
@@ -34,7 +39,6 @@ a {
     display: block;
     padding: 20px;
     color: gray;
-    text-size: 20px;
 }
 
 /*this changes the color of the buttons on hover */
@@ -52,6 +56,7 @@ li a:hover{
     width: 960px;
     height: 200px;
     padding: 3px 20px 15px 20px;
+    margin: auto;
     border: solid #cccccc;
 }
 
