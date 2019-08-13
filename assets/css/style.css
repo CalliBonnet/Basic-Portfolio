@@ -11,11 +11,40 @@ h1 {
     padding: 10px;
 }
 
-.button-1, .button-2, .button-3{
-    background-color: #ffffff;
-    color: gray;
-    padding: 5px;
+/*this is floating the image to the left*/
+img{ 
+    float: none;
+    clear: left;
+}
 
+/*this is creating the horizontal nav bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    color: gray;
+    text-size: 20px;
+}
+
+/*this changes the color of the buttons on hover */
+li a:hover{
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.acttive {
+    background-color: #4aaaa5;
 }
 
 .about-me, .contact, .Portfolio {
@@ -25,6 +54,14 @@ h1 {
     padding: 3px 20px 15px 20px;
     border: solid #cccccc;
 }
+
+/*this is creating the side by side images in the porfolio page*/
+.img-container{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
 
 .footer-line{ 
     margin: 50px 0px 0px;
