@@ -12,16 +12,21 @@ h1 {
     padding: 10px;
 }
 
-.about-me {
+.about-me, .contact, .Portfolio {
     background-color: blue;
     width: 960px;
     height: 200px;
     padding: 3px 20px 15px 20px;
+    border: solid #cccccc;
+}
+
+.footer-line{ 
+    border: solid #4aaaa5; 
 }
 
 footer{
-    background-color: gray;
-    border-block-color: blue:
-    text-align: center; 
-    
+    background-color:#666666;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
 }
