@@ -1,19 +1,25 @@
-* {
-    background-image: url ("symphony.png");
-    background-attachment: fixed;
+body {
+    background-color: rgba(253, 228, 248, 0.667)
 }
 
 h1 {
     color: #ffffff;
-    background-color: palevioletred;
+    background-color: #4aaaa5;
     width: 150px;
     height: 30px;
     text-align: center;
     padding: 10px;
 }
 
+.button-1, .button-2, .button-3{
+    background-color: #ffffff;
+    color: gray;
+    padding: 5px;
+
+}
+
 .about-me, .contact, .Portfolio {
-    background-color: blue;
+    background-color: #ffffff;
     width: 960px;
     height: 200px;
     padding: 3px 20px 15px 20px;
@@ -21,6 +27,7 @@ h1 {
 }
 
 .footer-line{ 
+    margin: 50px 0px 0px;
     border: solid #4aaaa5; 
 }
 
