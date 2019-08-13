@@ -1,0 +1,27 @@
+* {
+    background-image: url ("symphony.png");
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: palevioletred;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-me {
+    background-color: blue;
+    width: 960px;
+    height: 200px;
+    padding: 3px 20px 15px 20px;
+}
+
+footer{
+    background-color: gray;
+    border-block-color: blue:
+    text-align: center; 
+    
+}
