@@ -47,13 +47,14 @@ ul {
 }
 
 li {
-    float: right;
+    float: left;
 }
 
 a {
     display: block;
     padding: 20px;
     color: gray;
+
 }
 
 /*this changes the color of the buttons on hover */
@@ -68,7 +69,6 @@ li a:hover{
 
 .about-me, .contact, .Portfolio {
     box-sizing: border-box;
-    position: fixed;
     background-color: #ffffff;
     width: 960px;
     height: 500px;
@@ -88,6 +88,7 @@ li a:hover{
 .footer-line{ 
     border: solid #4aaaa5; 
     width: 100%;
+    position: sticky;
 
 }
 
@@ -96,8 +97,9 @@ footer{
     height: 50px;
     text-align: center;
     color: #ffffff;
-    position: fixed;
+    position: sticky;
     left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
 }
