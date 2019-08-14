@@ -10,6 +10,7 @@ h1 {
     text-align: center;
     padding: 10px;
     display: inline-block;
+    font-style: Georgia;
 }
 
 /*this is for the nav bar*/
@@ -28,13 +29,20 @@ h1 {
 
 h2{ 
     color: #4aaaa5;
+    font-style: Georgia;
 }
 
 /*this is floating the image to the left*/
 img{ 
-    float: none;
-    clear: left;
-    
+    float: left;
+    padding: 0;
+}
+
+.about-me-para { 
+    width: 600px;
+    float: left;
+    margin: 2px;
+    padding: 5px; 
 }
 
 /*this is creating the horizontal nav bar*/
@@ -56,7 +64,6 @@ a {
     display: block;
     padding: 20px;
     color: gray;
-
 }
 
 /*this changes the color of the buttons on hover */
@@ -73,10 +80,11 @@ li a:hover{
     box-sizing: border-box;
     background-color: #ffffff;
     width: 960px;
-    height: 500px;
+    height: 520px;
     padding: 3px 20px 15px 20px;
     margin: 40px auto;
     border: solid #cccccc;
+    font-size: 20px;
 }
 
 /*this is creating the side by side images in the porfolio page*/
