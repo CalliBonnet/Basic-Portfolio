@@ -34,6 +34,7 @@ h2{
 img{ 
     float: none;
     clear: left;
+    
 }
 
 /*this is creating the horizontal nav bar*/
@@ -44,6 +45,7 @@ ul {
     overflow: hidden;
     background-color: white;
     display: inline-block;
+    float: right;
 }
 
 li {
