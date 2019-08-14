@@ -24,9 +24,9 @@ h1 {
 .container{ 
     width: 960px;
     margin: 0 auto;
-
 }
 
+/*the below is for the About Me, Porfolio, and Contact Boxes*/
 h2{ 
     color: #4aaaa5;
     font-style: Georgia;

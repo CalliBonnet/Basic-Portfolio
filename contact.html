@@ -29,19 +29,35 @@
         </h2>
         <section class="contact-feilds">
             <form action="..." method="...">
-                <label for="Name">What is your name?</label>
+                <section class="row">
+                    <section class="col-25">
+                            <label for="Name">What is your name?</label>
+                    </section>
+                    <section class="col-75">
+                            <input type="text" name="name" id="Name" placeholder="Your first & last name...">
+                    </section>
+                </section>
                 <br>
-                <input type="text" name="name" id="Name">
+                <section class="row">
+                    <section class="col-25"> 
+                            <label for="Email">What is your email?</label>
+                    </section>
+                    <section class="col-75">
+                            <input type="text" name="email" id="Email" placeholder="Your email...">
+                    </section>
+                </section>
                 <br>
-                <label for="Email">What is your email?</label>
+               <section class="row">
+                   <section class="col-25">
+                        <label for="Message">Please provide a message.</label>
+                   </section>
+                   <section class="col-75">
+                        <textarea name="message" id="Message" cols="60" rows="10" placeholder="Type any message here...">
+                            </textarea>
+                   </section>
+               </section>
                 <br>
-                <input type="text" name="email" id="Email">
-                <br>
-                <label for="Message">Please provide a message.</label>
-                <br>
-                <textarea name="message" id="Message" cols="60" rows="10">
-            </textarea>
-                <br>
+
 
                 <section class="sumbit-button">
                     <input type="submit" value="Submit">
