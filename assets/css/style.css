@@ -94,6 +94,34 @@ li a:hover{
     padding: 5px;
 }
 
+/*This is sytling the contact me page*/
+input type=[text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc; 
+    border-radius: border-box;
+    resize: :vertical;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 .footer-line{ 
     border: solid #4aaaa5; 
