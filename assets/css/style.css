@@ -11,7 +11,7 @@ h1 {
     padding: 10px;
     display: inline-block;
     font-style: Georgia;
-    position: fixed; top: 11px;
+    font-family: 'Lobster', cursive;
 }
 
 /*this is for the nav bar*/
@@ -25,11 +25,10 @@ h1 {
 .container{ 
     width: 960px;
     margin: 0 auto;
-
 }
 
 .nav-container { 
-  position: fixed; left: 923px; top: 24px;
+  margin-top: -74px;
 }
 
 /*the below is for the About Me, Porfolio, and Contact Boxes*/
