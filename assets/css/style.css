@@ -11,6 +11,7 @@ h1 {
     padding: 10px;
     display: inline-block;
     font-style: Georgia;
+    position: fixed; top: 11px;
 }
 
 /*this is for the nav bar*/
@@ -24,6 +25,11 @@ h1 {
 .container{ 
     width: 960px;
     margin: 0 auto;
+
+}
+
+.nav-container { 
+  position: fixed; left: 923px; top: 24px;
 }
 
 /*the below is for the About Me, Porfolio, and Contact Boxes*/
@@ -49,10 +55,9 @@ img{
 ul {
     list-style-type: none;
     margin: 0;
-    padding 0;
+    padding: 0;
     overflow: hidden;
     background-color: white;
-    display: inline-block;
     float: right;
 }
 
