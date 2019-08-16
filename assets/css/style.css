@@ -104,18 +104,10 @@ li a:hover{
     float: left;
     width: 905px;
     padding: 5px;
-    background: #4aaaa5;
 }
 
-.img-1 { 
-}
-
-.img-2 {
-
-}
-
-.img-3 { 
-
+.images { 
+    margin-right: 30px; 
 }
 
 /*This is sytling the contact me page*/
