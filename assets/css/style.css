@@ -44,7 +44,7 @@ h2{
     padding-bottom: 5px;
 }
 
-/*this is floating the image to the left*/
+/*this is all realted to the About Me page -> the image and para*/
 img{ 
     float: left;
     padding: 0;
@@ -100,8 +100,20 @@ li a:hover{
 /*this is creating the side by side images in the porfolio page*/
 .img-container{
     float: left;
-    width: 33.33%;
+    width: 905px;
     padding: 5px;
+    background: #4aaaa5;
+}
+
+.img-1 { 
+}
+
+.img-2 {
+
+}
+
+.img-3 { 
+
 }
 
 /*This is sytling the contact me page*/
@@ -132,12 +144,11 @@ input type=[text], select, textarea {
 }
 
 
-
+/*This is the footer on every page*/
 .footer-line{ 
     border: solid #4aaaa5; 
     width: 100%;
     position: sticky;
-
 }
 
 footer{
