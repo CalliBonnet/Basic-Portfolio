@@ -53,7 +53,10 @@ img{
 .about-me-para { 
     width: 600px;
     padding: 5px; 
-    position: fixed; left: 563px; top: 199px;
+    float: left;
+    position: left: 563px; top: 199px;
+    line-height: 22px;
+    font-size: 20px;
 }
 
 /*this is creating the horizontal nav bar*/
