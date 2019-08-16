@@ -36,6 +36,12 @@ h1 {
 h2{ 
     color: #4aaaa5;
     font-style: Georgia;
+    border: solid #e7e7e7;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    padding-bottom: 5px;
 }
 
 /*this is floating the image to the left*/
@@ -46,9 +52,8 @@ img{
 
 .about-me-para { 
     width: 600px;
-    float: left;
-    margin: 2px;
     padding: 5px; 
+    position: fixed; left: 563px; top: 199px;
 }
 
 /*this is creating the horizontal nav bar*/
