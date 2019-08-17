@@ -142,15 +142,23 @@ input type=[text], select, textarea {
 .footer-line{ 
     border: solid #4aaaa5; 
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
 }
+
+.copyright { 
+    color: rgb(54, 54, 54);
+    padding-top: 10px;
+}
+
+
+
 
 footer{
     background-color:#666666;
     height: 50px;
     text-align: center;
     color: #ffffff;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     right: 0;
     bottom: 0;
