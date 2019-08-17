@@ -108,7 +108,9 @@ li a:hover{
 
 .images { 
     margin-right: 30px; 
+    /* position: relative; */
 }
+
 
 /*This is sytling the contact me page*/
 input type=[text], select, textarea {
